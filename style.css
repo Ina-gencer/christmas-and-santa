@@ -1,0 +1,594 @@
+ 
+
+ body {
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-color: #e72025;
+    background-position: center; 
+      min-height: 100vh; 
+      background-image: url(https://cdn.glitch.global/a8acf215-28b8-466a-b3ca-1aac2d552de0/snow4.gif?v=1641695484976);
+      margin: 0;
+      padding: 0;
+}  
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://cdn.glitch.global/a8acf215-28b8-466a-b3ca-1aac2d552de0/santaKlaus.jpg?v=1641593912663');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;   
+    z-index: -1;
+  }  
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, 0.9);
+    border: 3px solid black;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: red 2px 1px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+.btn-div {
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.christmas {
+  background-color: hsl(0, 0%, 100%, 0.5);  
+    width: 250px;
+    height: 320px;
+    margin-top: 50px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.game {
+  text-shadow: white 1px 0px;
+   font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    color: white;
+    padding: 6px 20px;
+    font-size: 26px;
+    margin: 0 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.days, .minutes, .hours, .seconds {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+  color : red;
+}
+
+.red {
+    font-size: 60px;
+    border: none;
+    color: red;
+    font-family: 'Staatliches', cursive;
+}
+
+
+#myButtonOne {
+    width: 70px;
+    height: 70px;
+    background-color: hsl(0, 53%, 58%, 0.8);
+   
+} #myButtonTwo {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(45, 128, 45, 0.8);
+
+}
+.music, .pauseMusic {
+    width: 60px;
+    height: 60px;
+}
+
+
+#prediction {
+    margin: 20px;
+    color: red;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: justify;
+   font-family: 'Montserrat', sans-serif;
+}
+.instructions {
+    margin: 0 20px 20px 36px;
+   font-family: 'Montserrat', sans-serif;
+}
+#claus-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 32, 32, 0.8); 
+    padding: 40px;
+    margin: 20px;
+}
+#claus-div {
+      display: flex;
+     justify-content: space-between; 
+    margin-top: 40px;
+    height: 150px;
+}
+#prediction {
+    flex: 1;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+} 
+.text { 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+#santa-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 auto 0 30px;
+    outline:none !important;
+}
+
+#santa-btn img {
+    width: 180px;
+    height: 180px;
+
+}
+.animation {
+    animation: shake 0.7s infinite;
+    filter:hue-rotate(205deg) grayscale(40%);
+    outline:none !important;
+}
+  .footer {
+      display: flex;
+      justify-content: center;
+  }
+   p {
+       font-size: 10px;
+       font-family: 'Montserrat', sans-serif;
+color: wheat;
+text-align: center;
+   }
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.box-game {
+  display: flex;
+  flex-direction: column;
+  background-color:  rgb(168,32,32, 0.8);
+   padding: 40px;
+  margin: 20px;
+  
+}
+.header-game, .image-container, .btn-game {
+    display: flex;
+    justify-content: center;
+}
+
+.question, .where {
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+   font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#one, #two, #start {
+    font-size: 20px;
+    padding: 20px;
+  
+     background-color: #4AA96C;
+
+     font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+#start {
+    display: none;
+}
+
+#myImage {
+    width: 350px;
+    height: 350px;
+    border: black 2px solid;
+}
+
+
+@media all and (max-width:1024px){
+    .instructions {
+        display:none;
+       }
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+    .christmas {
+        background-color: rgba(251, 248, 249, 0.82); 
+        width: 210px;
+        height: 310px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .text { 
+        margin-top: 20px;
+        padding: 10px;
+    }
+    #claus-div {
+        margin-top: 30px;
+        height: 180px;
+    }
+}
+ 
+
+
+@media all and (max-width: 800px) {
+    .top {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    
+    #myButton {
+        width: 160px;
+        height: 110px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .christmas {
+        width: 210px;
+        height: 300px;
+       margin-top: 40px;
+    }
+    #claus-div {
+        margin-top: 30px;
+        height: auto;
+    }
+  
+    #myImage {
+        width: 250px;
+        height: 250px;
+    }
+   
+}
+@media all and (max-width: 768px) {
+    #myImage {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media all and (max-width: 712px) {
+    .christmas {
+        width: 200px;
+        height: 280px;
+       margin-top: 40px;
+    }
+    #claus-div {
+        margin-top: 30px;
+        height: auto;
+    }
+    h4 {
+        font-size: 42px;
+    }
+    #myButton {
+        width: 140px;
+        height: 100px;
+        padding: 12px;
+    }
+    #santa-btn img {
+        width: 120px;
+        height: 120px;
+    }
+    #prediction {
+        font-size: 22px;
+    }
+  #myImage {
+        width: 230px;
+        height: 230px;
+    }
+    #one, #two, #start {
+        font-size: 18px;
+        padding: 18px;
+      
+    }
+}
+@media all and (max-width: 600px) {
+    h2 {
+        font-size: 18px;
+        padding: 3px;
+        margin: 0 30px;
+    }
+    .christmas {
+        width: 230px;
+        height: 320px;
+       margin-top: 50px;
+    }
+   
+
+    #myButton {
+        width: 140px;
+        height: 80px;
+        padding: 10px;
+    }
+    #santa-btn img {
+        width: 150px;
+        height: 150px;
+      align-self: center;
+    }
+
+    #claus-div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+  #prediction {
+    height: 200px;
+  }
+   #myImage {
+        width: 210px;
+        height: 210px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .top {
+        font-size: 33px;
+    }
+    .days, .minutes, .hours, .seconds {
+        font-size: 26px;
+    }
+    .christmas {
+        width: 200px;
+        height: 250px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    #santa-btn img {
+        width: 220px;
+        height: 220px;
+    }
+    #prediction {
+        height: auto;
+    }
+    #myImage {
+        width: 200px;
+        height: 200px;
+    }
+   
+}
+
+@media all and (max-width: 510px) {
+
+    #myImage {
+        width: 190px;
+        height: 190px;
+    }
+
+    .question, .where {
+        font-size: 10px;
+    }
+    
+    #one, #two, #start {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .top {
+        font-size: 30px;
+    }
+    .days, .minutes, .hours, .seconds {
+        font-size: 24px;
+    }
+    #claus-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        padding: 0;
+    }
+    #santa-btn {
+        width: 160px;
+        height: 160px;
+        margin: 0 auto;
+    }
+    
+    #santa-btn img {
+        height: 160px;
+        width: 160px;
+    }
+    #prediction-text-div {
+        order:1;
+    }
+    .claus-box {
+        padding: 0;
+    }
+
+   
+    .instructions {
+        margin: 0 20px 20px 36px;
+    }
+    #prediction {
+        margin: 20px;
+        height: 130px;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 12px;
+    }
+    
+}
+
+@media all and (max-width: 414px) {
+    .top {
+        font-size: 25px;
+    }
+    .days, .minutes, .hours, .seconds {
+        font-size: 20px;
+    }
+    .christmas {
+        width: 160px;
+        height: 230px;
+        margin-top: 20px;
+    }
+    #prediction {
+        font-size: 19px;
+    }
+  #myImage {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media all and (max-width: 375px) {
+.heading {
+    margin-top: 0;
+}
+.days, .minutes, .hours, .seconds {
+    font-size: 25px;
+}
+ h3 {
+     font-size: 20px;
+ }
+ .christmas {
+    width: 140px;
+    height: 210px;
+    margin-top: 20px;
+    padding: 0px;
+}
+#prediction {
+    font-size: 20px;
+}
+ 
+}
+@media all and (max-width: 360px) {
+   h3 {
+       font-size: 22px;
+   }
+    .days, .minutes, .hours, .seconds {
+        font-size: 20px;
+    }
+    .christmas {
+        width: 130px;
+        height: 170px;
+        margin-top: 30px;
+    }
+    
+    #prediction {
+        margin: 10px;
+        padding: 16px;
+        font-size: 18px;
+        border-radius: 10px;
+        font-weight: lighter;
+    }
+    .top {
+        font-size: 28px;
+    }
+    .heading {
+        padding: 0;
+    }
+}
+@media all and (max-width: 320px) {
+    .heading {
+        margin-top: 0;
+    }
+    .top {
+        font-size: 28px;
+    }
+
+    .christmas {
+        width: 110px;
+        height: 170px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    #prediction {
+        font-size: 16px;
+    }
+   #myImage {
+        width: 160px;
+        height: 160px;
+    } 
+}
+
+@media all and (max-width: 280px) {
+   
+    .top {
+        font-size: 26px;
+        text-shadow: red 0px 1px;
+    }
+    #santa-btn img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .christmas {
+        padding: 5px;
+        margin-top: 0px;
+    }
+    #prediction {
+        font-size: 16px;
+        width: auto;
+    }
+    #myButton {
+        width: 100px;
+        height: 60px;
+    }
+    .play img, .pause img {
+        width: 50px;
+        height: 50px;
+    }
+    #myImage {
+       width: 140px;
+       height: 140px;
+   } 
+    
+}
+
